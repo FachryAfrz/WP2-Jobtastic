@@ -2,7 +2,7 @@
   <nav class="autohide navbar navbar-expand-lg navbar-dark fixed-top shadow-sm rounded-bottom" style="transition: top 0.3s; background-color: #13131a">
     <div class="container-xl container-fluid">
       <!-- Navbar Brand -->
-      <a class="navbar-brand fw-bold text-primary" href="#">Jobtastic</a>
+      <a class="navbar-brand fw-bold text-primary" href="<?= base_url(); ?>">Jobtastic</a>
 
       <!-- Navbar Responsive Button -->
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,10 +15,10 @@
         <!-- Navbar Links -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5 d-flex gap-2">
           <li class="nav-item">
-            <a class="nav-link fs-sm d-flex gap-1 align-items-center py-md-3 justify-content-center" aria-current="page" href="#"><i class="bx bx-home-alt"></i> Home</a>
+            <a class="nav-link fs-sm d-flex gap-1 align-items-center py-md-3 justify-content-center" aria-current="page" href="#!"><i class="bx bx-home-alt"></i> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-sm d-flex gap-1 align-items-center py-md-3 justify-content-center" href="#"><i class="bx bx-briefcase"></i> Cari Pekerjaan</a>
+            <a class="nav-link fs-sm d-flex gap-1 align-items-center py-md-3 justify-content-center" href="#!"><i class="bx bx-briefcase"></i> Cari Pekerjaan</a>
           </li>
         </ul>
 
@@ -28,28 +28,28 @@
         <!-- Navbar Account -->
         <ul class="navbar-nav d-flex gap-3">
           <li class="nav-item">
-            <a class="nav-link d-flex align-items-center gap-1 justify-content-center fs-sm" href="#"><i class="bx bx-log-in"></i> Masuk</a>
+            <a class="nav-link d-flex align-items-center gap-1 justify-content-center fs-sm" href="#!"><i class="bx bx-log-in"></i> Masuk</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-primary text-white d-flex align-items-center gap-1 justify-content-center fs-sm" href="#"><i class="bx bx-user-circle"></i> Daftar Sekarang</a>
+            <a class="nav-link btn btn-primary text-white d-flex align-items-center gap-1 justify-content-center fs-sm" href="#!"><i class="bx bx-user-circle"></i> Daftar Sekarang</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link d-flex align-items-center gap-1 justify-content-center fs-sm p-1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="../../../../Photos and Videos/Photos/2021/7.1_Side.jpg" alt="" class="img-thumbnail rounded p-0 bg-dark border-dark" width="30" style="height: 30px" />
-              Nama Akun
+            <a class="nav-link d-flex align-items-center gap-1 justify-content-center fs-sm p-1" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="<?= base_url('assets/img/person/person-special.jpg'); ?>" alt="" class="img-thumbnail rounded p-0 bg-dark border-dark" width="30" style="height: 30px" />
+              Fachry Dwi Afriza
             </a>
             <ul class="dropdown-menu border-dark" aria-labelledby="navbarDropdown" style="background-color: #13131a">
               <li>
-                <a class="dropdown-item d-flex align-items-center gap-1 fs-sm py-2" href="#"><i class="bx bx-user-circle"></i> My Profile</a>
+                <a class="dropdown-item d-flex align-items-center gap-1 text-secondary fs-sm py-2" href="#!"><i class="bx bx-user-circle"></i> My Profile</a>
               </li>
               <li>
-                <a class="dropdown-item d-flex align-items-center gap-1 text-secondary fs-sm py-2" href="#"><i class="bx bx-bell"></i> Activity</a>
+                <a class="dropdown-item d-flex align-items-center gap-1 text-secondary fs-sm py-2" href="#!"><i class="bx bx-bell"></i> Activity</a>
               </li>
               <li>
                 <hr class="dropdown-divider bg-secondary" />
               </li>
               <li>
-                <a class="dropdown-item d-flex align-items-center gap-1 text-danger fs-sm py-2" href="#"><i class="bx bx-log-out bx-rotate-180"></i> Log Out</a>
+                <a class="dropdown-item d-flex align-items-center gap-1 text-danger fs-sm py-2" href="#!"><i class="bx bx-log-out bx-rotate-180"></i> Log Out</a>
               </li>
             </ul>
           </li>
@@ -118,7 +118,7 @@
 
       <!-- Categories Grid -->
       <div class="grid-custom container-fluid">
-        <a href="#" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
+        <a href="#!" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
           <ion-icon name="color-fill-outline"></ion-icon>
           <div class="d-flex justify-content-between flex-column gap-3">
             <p class="mb-0" style="font-weight: 500">
@@ -128,7 +128,7 @@
             <p class="fs-xs mb-0 text-secondary"><?= rand(100, 999) ?> Pekerjaan Tersedia</p>
           </div>
         </a>
-        <a href="#" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
+        <a href="#!" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
           <ion-icon name="megaphone-outline"></ion-icon>
           <div class="d-flex justify-content-between flex-column gap-3">
             <p class="mb-0" style="font-weight: 500">
@@ -138,7 +138,7 @@
             <p class="fs-xs mb-0 text-secondary"><?= rand(100, 999) ?> Pekerjaan Tersedia</p>
           </div>
         </a>
-        <a href="#" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
+        <a href="#!" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
           <ion-icon name="car-sport-outline"></ion-icon>
           <div class="d-flex justify-content-between flex-column gap-3">
             <p class="mb-0" style="font-weight: 500">
@@ -148,7 +148,7 @@
             <p class="fs-xs mb-0 text-secondary"><?= rand(100, 999) ?> Pekerjaan Tersedia</p>
           </div>
         </a>
-        <a href="#" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
+        <a href="#!" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
           <ion-icon name="cash-outline"></ion-icon>
           <div class="d-flex justify-content-between flex-column gap-3">
             <p class="mb-0" style="font-weight: 500">
@@ -158,7 +158,7 @@
             <p class="fs-xs mb-0 text-secondary"><?= rand(100, 999) ?> Pekerjaan Tersedia</p>
           </div>
         </a>
-        <a href="#" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
+        <a href="#!" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
           <ion-icon name="cart-outline"></ion-icon>
           <div class="d-flex justify-content-between flex-column gap-3">
             <p class="mb-0" style="font-weight: 500">
@@ -168,7 +168,7 @@
             <p class="fs-xs mb-0 text-secondary"><?= rand(100, 999) ?> Pekerjaan Tersedia</p>
           </div>
         </a>
-        <a href="#" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
+        <a href="#!" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
           <ion-icon name="business-outline"></ion-icon>
           <div class="d-flex justify-content-between flex-column gap-3">
             <p class="mb-0" style="font-weight: 500">
@@ -178,7 +178,7 @@
             <p class="fs-xs mb-0 text-secondary"><?= rand(100, 999) ?> Pekerjaan Tersedia</p>
           </div>
         </a>
-        <a href="#" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
+        <a href="#!" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
           <ion-icon name="headset-outline"></ion-icon>
           <div class="d-flex justify-content-between flex-column gap-3">
             <p class="mb-0" style="font-weight: 500">
@@ -188,7 +188,7 @@
             <p class="fs-xs mb-0 text-secondary"><?= rand(100, 999) ?> Pekerjaan Tersedia</p>
           </div>
         </a>
-        <a href="#" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
+        <a href="#!" class="nav-link text-light kategori p-3 rounded-3 g-col-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
           <ion-icon name="folder-open-outline"></ion-icon>
           <div class="d-flex justify-content-between flex-column gap-3">
             <p class="mb-0" style="font-weight: 500">
@@ -541,7 +541,7 @@
           <img src="https://randomuser.me/api/portraits/women/64.jpg" class="d-block w-100 rounded-circle" alt="User" />
         </button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="carouselButton active" aria-current="true" aria-label="Slide 3" style="background-color: unset" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
-          <img src="./assets/img/person/person-special.jpg" class="d-block w-100 rounded-circle" alt="User" />
+          <img src="<?= base_url('assets/img/person/person-special.jpg'); ?>" class="d-block w-100 rounded-circle" alt="User" />
         </button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="carouselButton" aria-current="true" aria-label="Slide 4" style="background-color: unset" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
           <img src="https://randomuser.me/api/portraits/men/78.jpg" class="d-block w-100 rounded-circle" alt="User" />
@@ -753,23 +753,23 @@
           <span class="fw-bold text-primary">Jobtastic</span>
         </p>
         <div class="d-flex flex-column footer-links">
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-group"></i> Tentang Kami</a>
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-shape-polygon"></i> Hubungan Partner</a>
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bxl-sketch"></i> Blog</a>
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-phone"></i> Kontak Kami</a>
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-group"></i> Tentang Kami</a>
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-shape-polygon"></i> Hubungan Partner</a>
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bxl-sketch"></i> Blog</a>
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-phone"></i> Kontak Kami</a>
         </div>
         <div class="d-flex flex-column footer-links">
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-briefcase-alt"></i> Karir</a>
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-briefcase"></i> Lowongan Pekerjaan</a>
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-briefcase-alt-2"></i> Referal Lowongan
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-briefcase-alt"></i> Karir</a>
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-briefcase"></i> Lowongan Pekerjaan</a>
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-briefcase-alt-2"></i> Referal Lowongan
             Pekerjaan</a>
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-help-circle"></i> Bantuan</a>
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-help-circle"></i> Bantuan</a>
         </div>
         <div class="d-flex flex-column footer-links">
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-share-alt"></i> Afiliasi</a>
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-shield-quarter"></i> Syarat dan Ketentuan</a>
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-headphone"></i> Layanan Kebijakan Pribadi</a>
-          <a href="#" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-coffee-togo"></i> Kirim Saran dan Masukan</a>
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-share-alt"></i> Afiliasi</a>
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-shield-quarter"></i> Syarat dan Ketentuan</a>
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-headphone"></i> Layanan Kebijakan Pribadi</a>
+          <a href="#!" class="py-3 ps-0 fs-sm" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true"><i class="bx bx-coffee-togo"></i> Kirim Saran dan Masukan</a>
         </div>
       </div>
 
@@ -778,42 +778,9 @@
 
       <!-- Copyright -->
       <p class="text-center" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
-        <span class="fw-bold text-primary">Jobtastic</span> &copy; 2022
+        <span class="fw-bold text-primary">Jobtastic</span> &copy; 2021 - <?= date('Y'); ?>
         <br />Seluruh Hak Cipta
       </p>
     </div>
   </div>
   <!-- Footer End -->
-
-  <!-- ----------------------------- -->
-
-  <!-- Web by Fachry Dwi Afriza | all rights reserved -->
-
-  <!-- Script -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-  <!-- Navbar Autohide when scroll down and show when scroll up -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var prevScrollpos = window.pageYOffset;
-      window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.querySelector(".autohide").style.top = "0";
-        } else {
-          document.querySelector(".autohide").style.top = "-70px";
-        }
-        prevScrollpos = currentScrollPos;
-      };
-    });
-  </script>
-  <!-- Script End -->
-  </body>
-
-  </html>

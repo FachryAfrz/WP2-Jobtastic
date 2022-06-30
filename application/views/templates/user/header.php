@@ -12,7 +12,7 @@
   <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="<?= base_url() ?>assets/css/styless.css " />
+  <link rel="stylesheet" href="<?= base_url() ?>assets/css/styles.css " />
   <title>Jobtastic - Cari Pekerjaan Impian Kamu Sekarang</title>
 </head>
 <!-- Jobtastic by Fachry Dwi Afriza | all rights reserved -->
