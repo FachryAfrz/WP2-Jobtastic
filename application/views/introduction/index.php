@@ -81,7 +81,7 @@
     </p>
 
     <!-- Job Search -->
-    <div class="job-search border border-secondary rounded-3 d-none" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
+    <div class="job-search border border-secondary rounded-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
       <div class="d-flex align-items-center gap-2">
         <i class="bx bx-briefcase text-secondary"></i>
         <input type="text" name="findJob" id="findJob" placeholder="Cari pekerjaan favorit kamu ..." class="fs-xs border-secondary" />
